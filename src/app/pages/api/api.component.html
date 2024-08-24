@@ -1,0 +1,17 @@
+<div class="row">
+    @for (item of musica; track item) {
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href=>
+          <img src="{{item.media.cover_image}}" alt="Lights" style="width:100%">
+          <div class="caption">
+          </div>
+        </a>
+        <p>Nombre:{{item.artist.name}}</p>
+        <p>Titulo:{{item.title}}</p>
+        <p>Genero:{{item.artist.genre}}</p>
+        <p>Titulo:{{item.media.url}}</p>
+      </div>
+    </div>
+    }
+  </div>

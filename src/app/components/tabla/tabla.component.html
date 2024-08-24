@@ -1,0 +1,39 @@
+<form class="form-inline justify-content-around">
+    <div class="col-md-4">
+      <select class="form-control" name="filtroTipo" id="filtros3" (change)="aplicarFiltro($event)">
+        <option value="">Volver al menu principal</option>
+        <option value="bebida">bebida</option>
+        <option value="entrada">entrada</option>
+        <option value="postre">postre</option>
+        <option value="plato principal">plato principal</option>
+      </select>
+    </div>
+  </form>
+<table class="table">
+    <thead>
+      <tr>
+        <th>id</th>
+        <th>nombre</th>
+        <th>tipo</th>
+        <th>precio</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      @for (item of productosFiltrados; track item) {
+       
+      <tr>
+        <td>{{item.id}}</td>
+        <td>{{item.nombre}}</td>
+        <td>{{item.tipo}}</td>
+        <td>{{item.precio}}</td>
+        <th>
+        </th>
+      </tr>
+    }
+
+    </tbody>
+  </table>
+
+
+  

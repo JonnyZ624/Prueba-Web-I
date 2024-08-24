@@ -1,0 +1,46 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Coca-Colas",
+      "tipo": "bebida",
+      "precio": 1.5
+    },
+    {
+      "id": 2,
+      "nombre": "Ensalada César",
+      "tipo": "entrada",
+      "precio": 6
+    },
+    {
+      "id": 3,
+      "nombre": "Tarta de Queso",
+      "tipo": "postre",
+      "precio": 4.5
+    },
+    {
+      "id": 4,
+      "nombre": "Pizza Margarita",
+      "tipo": "plato principal",
+      "precio": 8
+    },
+    {
+      "id": 5,
+      "nombre": "Café Americano",
+      "tipo": "bebida",
+      "precio": 2
+    },
+    {
+      "id": 6,
+      "nombre": "Sopa de Lentejas",
+      "tipo": "entrada",
+      "precio": 5.5
+    },
+    {
+      "id": 7,
+      "nombre": "Brownie de Chocolate",
+      "tipo": "postre",
+      "precio": 3.75
+    }
+  ]
+}
